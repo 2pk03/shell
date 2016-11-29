@@ -3,6 +3,10 @@
 /etc/init.d/ambari-agent stop
 /etc/init.d/ambari-server stop
 
+# kill ambari ping process
+fuser -k 8670/tcp
+
+#remove hdp packages
 yum remove hdp-select* falcon_* atlas-metadata_* lucidworks-* bigtop-* extjs* spark* bigtop* slider* postgres* hue\* ambari\*  hadoop\* knox\* pig\* oozie\* zookeeper\* tez\* phoenix\*
 hbase\* hive\* storm\* kafka\* ranger\* -y
 
