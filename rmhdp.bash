@@ -21,7 +21,7 @@ rm -rf /etc/hadoop /etc/falcon /etc/hive /etc/hbase /etc/oozie /etc/sqoop /etc/h
 /var/run/atlas /var/log/hbase /var/log/hive* /var/log/oozie /var/log/sqoop /var/log/hue /var/log/zookeeper /var/log/flume \
 /var/log/storm /var/log/falcon /var/log/webhcat /var/log/hadoop* /var/log/knox /var/log/kafka /var/log/spark /var/log/ranger \
 /var/log/ambari* /var/log/atlas /var/log/zeppelin /usr/lib/flume /usr/lib/storm /var/lib/atlas /var/tmp/oozie /tmp/hive* \
-/tmp/hadoop* /hadoop /kafka-logs /var/lib/ambari-* /var/lib/flume /var/lib/oozie /var/lib/slider /var/lib/zeppelin /var/lib/ranger \
+/tmp/hadoop* /kafka-logs /var/lib/ambari-* /var/lib/flume /var/lib/oozie /var/lib/slider /var/lib/zeppelin /var/lib/ranger \
 /var/lib/hive* /var/lib/pgsql /var/lib/knox /var/lib/hadoop-* /usr/lib/ambari-* /etc/ambari-* /etc/ams* /usr/hdp/current /tmp/ambari* \
 /usr/hdp   
 
