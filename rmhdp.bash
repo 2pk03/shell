@@ -17,8 +17,8 @@ rm -rf /hadoop
 rm -rf /var/lib/mysql/* /var/lib/pgsql/*
 
 #remove hdp packages
-yum remove -y hdp-select* falcon_* atlas-metadata_* lucidworks-* bigtop-* extjs* spark* bigtop* slider* hue\* ambari\*  hadoop\* knox\* pig\* oozie\* zookeeper\* tez\* phoenix\*
-hbase\* hive\* storm\* kafka\* ranger\* smartsense*  
+yum remove -y hdp-select* falcon_* atlas-metadata_* lucidworks-* bigtop-* extjs* spark* bigtop* slider* hue* ambari*  hadoop* \
+knox* pig* oozie* zookeeper* tez* phoenix* hbase* hive* storm* kafka* ranger* smartsense*  
 
 echo "=> remove files and directories"
 rm -rf /etc/hadoop /etc/falcon /etc/hive /etc/hbase /etc/oozie /etc/sqoop /etc/hue /etc/zookeeper /etc/flume /etc/storm* /etc/hive* \
