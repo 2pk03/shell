@@ -49,9 +49,8 @@
         },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "startingDirectory" : "//wsl$/Ubuntu/home/alex",
             "name" : "Ubuntu",
-            "commandline": "wsl.exe",
+            "commandline": "wsl.exe ~ -d Ubuntu",
             "useAcrylic" : true,
 	        "acrylicOpacity" : 0.8,
             "closeOnExit" : true,
